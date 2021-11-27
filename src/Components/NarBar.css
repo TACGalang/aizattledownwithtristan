@@ -1,0 +1,47 @@
+ele {
+  --tail-blue-main: #005964;
+}
+
+.navbar {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  /* top: 0; */
+  /* z-index: 999; */
+}
+
+.nav-menu-list {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 5rem;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0 0 0 0;
+}
+
+.nav-menu-item {
+  padding: 15px 15px 15px 15px;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu-item:hover {
+  background-color: white;
+}
+
+.nav-menu-item:hover .nav-links {
+  color: #005964;
+}
