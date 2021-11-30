@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NarBar.css";
-import Home from "../Pages/Home.js";
 
-function NavBar() {
+export const NavBar = ({isNavBarActive}) => {
   return (
     <>
-      <nav className={menuClicked ? "navbar" : "navbar-active"}>
+      <nav className={isNavBarActive ? "navbar-active" : "navbar"}>
         <ul className="nav-menu-list">
           <li className="nav-menu-item">
             <Link to="/" className="nav-links">
@@ -37,6 +36,4 @@ function NavBar() {
       </nav>
     </>
   );
-}
-
-export default NavBar;
+};

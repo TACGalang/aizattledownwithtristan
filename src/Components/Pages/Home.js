@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Header from "../Components/Header";
-import NavBar from "../Components/NavBar";
+import Header from "../Header";
+import { NavBar } from "../NavBar.js";
 import "./Home.css";
 
 function Home() {
@@ -27,7 +27,7 @@ function Home() {
         <i className={menuClicked ? "fa fa-times" : "fas fa-bars"} />
       </div>
       <Header />
-      <NavBar className={menuClicked ? "home navBar-active" : "home navBar"} />
+      <NavBar isNavBarActive={menuClicked}/>
       <div className="storyDIV" />
     </div>
   );
