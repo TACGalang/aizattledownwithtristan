@@ -3,6 +3,7 @@ import Gallery from "../Gallery";
 import Header from "../Header";
 import { NavBar } from "../NavBar.js";
 import OurStory from "../OurStory";
+import WhenAndWhere from "../WhenAndWhere";
 import "./Home.css";
 
 function Home() {
@@ -37,6 +38,7 @@ function Home() {
       <NavBar isNavBarActive={menuClicked} />
       <OurStory />
       <Gallery />
+      <WhenAndWhere />
     </div>
   );
 }

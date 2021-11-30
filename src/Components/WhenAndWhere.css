@@ -1,0 +1,14 @@
+.when.and.where {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tail-blue-color);
+}
+
+.when.and.where h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px #00000027;
+}
