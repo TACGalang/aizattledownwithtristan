@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../Header";
 import { NavBar } from "../NavBar.js";
 import "./Home.css";
@@ -13,8 +13,13 @@ function Home() {
       setMenuHidden(false);
     } else {
       setMenuHidden(true);
+      setMenuClicked(false);
     }
   };
+
+  useEffect(() => {
+    changeMenuIconVisibility();
+  }, []);
 
   window.addEventListener("scroll", changeMenuIconVisibility);
 
