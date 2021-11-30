@@ -2,11 +2,6 @@
   background-color: white;
 }
 
-.storyDIV {
-  background-image: linear-gradient(black, #005964);
-  height: 200vh;
-}
-
 .menu-icon-active {
   z-index: 1;
   position: fixed;
@@ -31,7 +26,6 @@
 }
 
 @media screen and (max-width: 960px) {
-
 }
 
 @media screen and (min-width: 961px) {

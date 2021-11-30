@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Gallery from "../Gallery";
 import Header from "../Header";
 import { NavBar } from "../NavBar.js";
+import OurStory from "../OurStory";
 import "./Home.css";
 
 function Home() {
@@ -33,8 +34,8 @@ function Home() {
         <i className={menuClicked ? "fa fa-times" : "fas fa-bars"} />
       </div>
       <Header />
-      <NavBar isNavBarActive={menuClicked}/>
-      <div className="storyDIV" />
+      <NavBar isNavBarActive={menuClicked} />
+      <OurStory />
       <Gallery />
     </div>
   );
