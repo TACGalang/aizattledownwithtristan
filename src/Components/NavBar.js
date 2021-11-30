@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NarBar.css";
+import Home from "../Pages/Home.js";
 
 function NavBar() {
   return (
     <>
-      <nav className="navbar">
+      <nav className={menuClicked ? "navbar" : "navbar-active"}>
         <ul className="nav-menu-list">
           <li className="nav-menu-item">
             <Link to="/" className="nav-links">

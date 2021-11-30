@@ -13,7 +13,8 @@
   top: 20px;
   right: 20px;
   opacity: 1;
-  transition: opacity 10s ease;
+  transition: opacity 10s ease-out;
+  -webkit-transition: opacity 2s ease-out;
 }
 
 .menu-icon-inactive {
@@ -30,8 +31,15 @@
 }
 
 @media screen and (max-width: 960px) {
-  .navbar {
-    display: none;
+  .home.navBar {
+    left: -100%;
+  }
+
+  .home.navBar-active {
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    /* z-index: 1; */
   }
 }
 

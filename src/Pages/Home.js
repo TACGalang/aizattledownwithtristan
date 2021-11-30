@@ -27,7 +27,7 @@ function Home() {
         <i className={menuClicked ? "fa fa-times" : "fas fa-bars"} />
       </div>
       <Header />
-      <NavBar />
+      <NavBar className={menuClicked ? "home navBar-active" : "home navBar"} />
       <div className="storyDIV" />
     </div>
   );
