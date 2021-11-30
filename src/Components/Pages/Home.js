@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Gallery from "../Gallery";
 import Header from "../Header";
 import { NavBar } from "../NavBar.js";
 import "./Home.css";
@@ -34,6 +35,7 @@ function Home() {
       <Header />
       <NavBar isNavBarActive={menuClicked}/>
       <div className="storyDIV" />
+      <Gallery />
     </div>
   );
 }
