@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AttiresAndGifts from "../AttiresAndGifts";
 import FAQ from "../FAQ";
+import Footer from "../Footer";
 import Gallery from "../Gallery";
 import Header from "../Header";
 import { NavBar } from "../NavBar.js";
@@ -43,6 +44,7 @@ function Home() {
       <WhenAndWhere />
       <AttiresAndGifts />
       <FAQ />
+      <Footer />
     </div>
   );
 }

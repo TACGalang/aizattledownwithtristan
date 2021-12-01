@@ -46,6 +46,7 @@
   font-family: "PT Serif", serif;
   font-size: 20px;
   font-weight: normal;
+  line-height: 40px;
 }
 
 .when.and.where a {
@@ -85,7 +86,8 @@ hr {
   }
 
   .when.and.where p {
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 25px;
   }
 
   .article-info {

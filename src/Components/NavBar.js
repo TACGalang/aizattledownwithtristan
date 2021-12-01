@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NarBar.css";
 
-export const NavBar = ({isNavBarActive}) => {
+export const NavBar = ({ isNavBarActive }) => {
   return (
     <>
       <nav className={isNavBarActive ? "navbar-active" : "navbar"}>
@@ -28,7 +28,7 @@ export const NavBar = ({isNavBarActive}) => {
             </Link>
           </li>
           <li className="nav-menu-item">
-            <Link to="/" className="nav-links">
+            <Link to="/rsvp" className="nav-links">
               RSVP
             </Link>
           </li>

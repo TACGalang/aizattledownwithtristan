@@ -38,6 +38,7 @@
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 5vh;
+  line-height: 40px;
 }
 
 .gentlemans-list {
@@ -83,5 +84,6 @@
 
   .attires.and.gifts p {
     font-size: 15px;
+    line-height: 25px;
   }
 }

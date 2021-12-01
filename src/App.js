@@ -8,6 +8,15 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route
+            path="/rsvp"
+            exact
+            component={() => {
+              window.location.href =
+                "https://www.theknot.com/us/aiza-teodoro-and-tristan-galang-jan-2022-7c74913b-ec40-4889-8de0-ea1b353935b0/rsvp";
+              return null;
+            }}
+          />
         </Switch>
       </Router>
     </>
