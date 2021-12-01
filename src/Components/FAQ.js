@@ -16,7 +16,9 @@ function FAQ() {
           unfortunately, we can only accommodate a limited numbers of guest due
           to venue restriction.
         </p>
-        <p>Our Coordinator will be strict. Not on the list, No Entry.</p>
+        <p>
+          <b>Our Coordinator will be strict. Not on the list, No Entry.</b>
+        </p>
         <p>
           We request that only those who are invited to come. Please refer to
           your invitation for the allotted number of Seat/s, and or please refer
