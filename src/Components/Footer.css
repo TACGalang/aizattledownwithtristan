@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   color: white;
-  padding-top: 10vh;
+  padding-top: 5vh;
   padding-bottom: 10vh;
 }
 
@@ -24,6 +24,7 @@
   font-weight: bold;
   text-shadow: 3px 3px 4px #00000027;
   margin-bottom: 5vh;
+  margin-top: 0;
 }
 
 .footer-container p {
@@ -31,6 +32,12 @@
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 10vh;
+}
+
+.footer-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 960px) {
@@ -45,5 +52,11 @@
 
   .footer-container div {
     width: 90vw;
+  }
+
+  .footer-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
   }
 }
