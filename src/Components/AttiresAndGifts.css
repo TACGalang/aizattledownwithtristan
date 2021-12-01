@@ -1,0 +1,87 @@
+.attires.and.gifts {
+  background-color: var(--tail-blue-color);
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.attires-container {
+  width: 70vw;
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-bottom: 5vh;
+}
+
+.attires.and.gifts h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px #00000027;
+  margin-bottom: 3vh;
+}
+
+.attires.and.gifts h3 {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10vh;
+}
+
+.attires.and.gifts p {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 5vh;
+}
+
+.gentlemans-list {
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 1.5rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.attires.and.gifts img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 8px 7px #0000002f;
+}
+
+.attires.and.gifts img:hover {
+  transition: all 350ms ease-out;
+  box-shadow: 0px 2px 10px #0000002f;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 960px) {
+  .gentlemans-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .attires.and.gifts h1 {
+    font-size: 45px;
+    text-shadow: 2px 2px 2px #00000027;
+  }
+
+  .attires.and.gifts h3 {
+    font-size: 15px;
+  }
+
+  .attires-container {
+    width: 90vw;
+  }
+
+  .attires.and.gifts p {
+    font-size: 15px;
+  }
+}

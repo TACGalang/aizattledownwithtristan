@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import AttiresAndGifts from "../AttiresAndGifts";
 import Gallery from "../Gallery";
 import Header from "../Header";
 import { NavBar } from "../NavBar.js";
@@ -39,6 +40,7 @@ function Home() {
       <OurStory />
       <Gallery />
       <WhenAndWhere />
+      <AttiresAndGifts />
     </div>
   );
 }
