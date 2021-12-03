@@ -1,13 +1,14 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Pages/Home.js";
+import ComingSoon from "./Components/ComingSoon";
 
 function App() {
   return (
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={ComingSoon} />
           <Route
             path="/rsvp"
             exact
