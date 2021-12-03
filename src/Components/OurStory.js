@@ -3,7 +3,7 @@ import "./OurStory.css";
 
 function OurStory() {
   return (
-    <div className="our-story">
+    <div className="our-story" id="our-story">
       <div>
         <h1>Welcome to Our Wedding</h1>
         <q>

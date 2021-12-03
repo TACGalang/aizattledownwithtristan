@@ -32,13 +32,13 @@ function Home() {
   return (
     <div className="home-page">
       <div
-        className={menuHidden ? "menu-icon-inactive" : "menu-icon-active"}
+        className="menu-icon-active"
         onClick={handleClicked}
       >
         <i className={menuClicked ? "fa fa-times" : "fas fa-bars"} />
       </div>
       <Header />
-      <NavBar isNavBarActive={menuClicked} />
+      <NavBar isNavBarActive={menuClicked} callHandleClick={handleClicked}/>
       <OurStory />
       <Gallery />
       <WhenAndWhere />

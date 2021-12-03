@@ -6,7 +6,7 @@ import agathaImg from "../Images/agatha.jpeg";
 
 function WhenAndWhere() {
   return (
-    <div className="when and where">
+    <div className="when and where" id="when-and-where">
       <div>
         <h1>The Wedding Ceremony</h1>
         <div className="article-info">

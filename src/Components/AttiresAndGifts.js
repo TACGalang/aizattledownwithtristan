@@ -9,7 +9,7 @@ import ladies3 from "../Images/ladies_3.jpeg";
 
 function AttiresAndGifts() {
   return (
-    <div className="attires and gifts">
+    <div className="attires and gifts" id="attires-and-gift">
       <div className="attires-container">
         <h1>Gentleman’s Attire</h1>
         <h3>- Dress pants with coat or button down shirt</h3>

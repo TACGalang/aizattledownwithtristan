@@ -4,7 +4,7 @@ import weddingTimeline from "../Images/wedding_timeline.svg";
 
 function FAQ() {
   return (
-    <div className="faq container">
+    <div className="faq container" id="faq">
       <div>
         <h1>What is the wedding timeline?</h1>
         <img src={weddingTimeline} className="timeline" />
