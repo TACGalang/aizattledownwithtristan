@@ -8,7 +8,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={ComingSoon} />
+          <Route path="/" exact component={Home} />
           <Route
             path="/rsvp"
             exact
