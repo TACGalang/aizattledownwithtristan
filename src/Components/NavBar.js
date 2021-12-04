@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { Link, NavLink } from "react-router-dom";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 import "./NarBar.css";
 
 export const NavBar = ({ isNavBarActive, callHandleClick }) => {
@@ -10,24 +10,24 @@ export const NavBar = ({ isNavBarActive, callHandleClick }) => {
       <nav className={isNavBarActive ? "navbar-active" : "navbar"}>
         <ul className="nav-menu-list">
           <li className="nav-menu-item" onClick={isNavBarActive ? callHandleClick : null}>
-            <HashLink smooth to="#our-story" className="nav-links">
+            <NavHashLink smooth to="#our-story" activeClassName="nav-links-active" className="nav-links">
               Our Story
-            </HashLink>
+            </NavHashLink >
           </li>
           <li className="nav-menu-item" onClick={isNavBarActive ? callHandleClick : null}>
-            <HashLink smooth to="#when-and-where" className="nav-links">
+            <NavHashLink smooth to="#when-and-where" activeClassName="nav-links-active" className="nav-links">
               When & Where
-            </HashLink>
+            </NavHashLink>
           </li>
           <li className="nav-menu-item" onClick={isNavBarActive ? callHandleClick : null}>
-            <HashLink smooth to="#attires-and-gift" className="nav-links">
+            <NavHashLink smooth to="#attires-and-gift" activeClassName="nav-links-active" className="nav-links">
               Attires & Gift
-            </HashLink>
+            </NavHashLink>
           </li>
           <li smooth className="nav-menu-item" onClick={isNavBarActive ? callHandleClick : null}>
-            <HashLink smooth to="#faq" className="nav-links">
+            <NavHashLink smooth to="#faq" activeClassName="nav-links-active" className="nav-links">
               FAQ
-            </HashLink>
+            </NavHashLink>
           </li>
           <li className="nav-menu-item">
             <Link smooth to="/rsvp" className="nav-links">

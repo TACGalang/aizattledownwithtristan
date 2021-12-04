@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import AttiresAndGifts from "../AttiresAndGifts";
 import FAQ from "../FAQ";
 import Footer from "../Footer";
@@ -14,9 +14,11 @@ function Home() {
   const [menuClicked, setMenuClicked] = useState(false);
   const [menuHidden, setMenuHidden] = useState(false);
   const handleClicked = () => setMenuClicked(!menuClicked);
+const galleryRef = useRef()
 
   const changeMenuIconVisibility = () => {
     if (window.scrollY >= 100) {
+      console.log(galleryRef.current)
       setMenuHidden(false);
     } else {
       setMenuHidden(true);
@@ -39,7 +41,7 @@ function Home() {
       <Header />
       <NavBar isNavBarActive={menuClicked} callHandleClick={handleClicked}/>
       <OurStory />
-      <Gallery />
+      <Gallery ref={galleryRef}/>
       <WhenAndWhere />
       <AttiresAndGifts />
       <FAQ />
