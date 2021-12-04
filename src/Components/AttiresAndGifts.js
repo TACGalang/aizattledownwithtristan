@@ -7,9 +7,9 @@ import ladies1 from "../Images/ladies_1.jpeg";
 import ladies2 from "../Images/ladies_2.jpeg";
 import ladies3 from "../Images/ladies_3.jpeg";
 
-function AttiresAndGifts() {
+function AttiresAndGifts({ reference }) {
   return (
-    <div className="attires and gifts" id="attires-and-gift">
+    <div className="attires and gifts" id="attires-and-gift" ref={reference}>
       <div className="attires-container">
         <h1>Gentleman’s Attire</h1>
         <h3>- Dress pants with coat or button down shirt</h3>

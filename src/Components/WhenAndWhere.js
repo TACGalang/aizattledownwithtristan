@@ -4,9 +4,9 @@ import cathedralImg from "../Images/cathedral.png";
 import oneGrandImg from "../Images/one_grand.jpeg";
 import agathaImg from "../Images/agatha.jpeg";
 
-function WhenAndWhere() {
+function WhenAndWhere({ reference }) {
   return (
-    <div className="when and where" id="when-and-where">
+    <div className="when and where" id="when-and-where" ref={reference}>
       <div>
         <h1>The Wedding Ceremony</h1>
         <div className="article-info">

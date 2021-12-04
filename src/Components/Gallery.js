@@ -7,7 +7,7 @@ import img4 from '../Images/img_4.jpg';
 import img5 from '../Images/img_5.jpg';
 import img6 from '../Images/img_6.jpg';
 
-export default function Gallery() {
+export default function Gallery({ reference }) {
 
     let data = [
         {
@@ -45,7 +45,7 @@ export default function Gallery() {
     }
 
     return (
-        <div className="gallery-container">
+        <div className="gallery-container" ref={reference}>
             <div className={model ? "model open" : "model"}>
                 <img src={tempImgSrc}/>
                 <i className="fa fa-times" onClick={() => setModel(false)}/>

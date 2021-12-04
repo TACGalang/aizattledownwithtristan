@@ -2,9 +2,9 @@ import React from "react";
 import "./FAQ.css";
 import weddingTimeline from "../Images/wedding_timeline.svg";
 
-function FAQ() {
+function FAQ({ reference }) {
   return (
-    <div className="faq container" id="faq">
+    <div className="faq container" id="faq" ref={reference}>
       <div>
         <h1>What is the wedding timeline?</h1>
         <img src={weddingTimeline} className="timeline" />

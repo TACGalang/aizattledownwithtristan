@@ -3,9 +3,9 @@ import { Button } from "./Button";
 import "./Footer.css";
 import weddingLogo from "../Images/wedding_logo.png";
 
-function Footer() {
+function Footer({ reference }) {
   return (
-    <div className="footer-container">
+    <div className="footer-container" ref={reference}>
       <div>
         <img src={weddingLogo} />
         <h1>We can't wait to see you!</h1>

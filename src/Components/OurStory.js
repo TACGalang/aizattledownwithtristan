@@ -1,9 +1,9 @@
 import React from "react";
 import "./OurStory.css";
 
-function OurStory() {
+function OurStory({ reference }) {
   return (
-    <div className="our-story" id="our-story">
+    <div className="our-story" id="our-story" ref={reference}>
       <div>
         <h1>Welcome to Our Wedding</h1>
         <q>

@@ -14,11 +14,16 @@ function Home() {
   const [menuClicked, setMenuClicked] = useState(false);
   const [menuHidden, setMenuHidden] = useState(false);
   const handleClicked = () => setMenuClicked(!menuClicked);
-const galleryRef = useRef()
+  const whenAndWhereRef = useRef();
+  const attiresAndGiftRef = useRef();
+  const ourStoryRef = useRef();
+  const FAQRef = useRef();
+  const footerRef = useRef();
+
+  const navHeaders = [ ourStoryRef, whenAndWhereRef, attiresAndGiftRef, FAQRef ];
 
   const changeMenuIconVisibility = () => {
     if (window.scrollY >= 100) {
-      console.log(galleryRef.current)
       setMenuHidden(false);
     } else {
       setMenuHidden(true);
@@ -39,13 +44,13 @@ const galleryRef = useRef()
         <i className={menuClicked ? "fa fa-times" : "fas fa-bars"} />
       </div>
       <Header />
-      <NavBar isNavBarActive={menuClicked} callHandleClick={handleClicked}/>
-      <OurStory />
-      <Gallery ref={galleryRef}/>
-      <WhenAndWhere />
-      <AttiresAndGifts />
-      <FAQ />
-      <Footer />
+      <NavBar isNavBarActive={menuClicked} callHandleClick={handleClicked} navHeaders={navHeaders}/>
+      <OurStory reference={ourStoryRef}/>
+      <Gallery/>
+      <WhenAndWhere reference={whenAndWhereRef}/>
+      <AttiresAndGifts reference={attiresAndGiftRef}/>
+      <FAQ reference={FAQRef}/>
+      <Footer reference={footerRef}/>
     </div>
   );
 }
