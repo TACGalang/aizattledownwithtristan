@@ -26,6 +26,14 @@
   margin-bottom: 8vh;
 }
 
+.faq.container h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px #00000027;
+  margin-bottom: 8vh;
+}
+
 .faq.container p {
   font-family: "PT Serif", serif;
   font-size: 20px;
@@ -38,6 +46,16 @@
   width: 70%;
   margin-top: 10vh;
 }
+
+.faq.container div.entourage-list {
+  width: 50vw;
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
 
 @media screen and (max-width: 960px) {
   .faq.container h1 {
@@ -58,5 +76,14 @@
 
   .timeline {
     width: 100%;
+  }
+
+  .faq.container div.entourage-list {
+    width: 90vw;
+    text-align: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
   }
 }

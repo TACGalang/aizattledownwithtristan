@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import AttiresAndGifts from "../AttiresAndGifts";
+import Entourage from "../Entourage";
 import FAQ from "../FAQ";
 import Footer from "../Footer";
 import Gallery from "../Gallery";

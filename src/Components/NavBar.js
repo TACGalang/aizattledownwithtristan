@@ -58,13 +58,6 @@ export const NavBar = ({ isNavBarActive, callHandleClick, navHeaders }) => {
     const handleScroll = (e) => {
       var index = nearestIndex(window.scrollY, navHeaders, 0, navHeaders.length - 1)
       setActiveIndex(index);
-      // var index = nearestIndex(
-      //   window.scrollY,
-      //   navHeader,
-      //   0,
-      //   navHeader.length - 1
-      // );
-      // setActiveIndex(index);
     };
     document.addEventListener("scroll", handleScroll);
     return () => {
