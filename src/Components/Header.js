@@ -6,7 +6,7 @@ import "../App.css";
 
 function Header() {
   return (
-    <div className="header-container">
+    <div className="header-container" id="home">
       <img src={headerTitle} alt="Header Title" className="header-title" />
       <img
         src={headerBG}

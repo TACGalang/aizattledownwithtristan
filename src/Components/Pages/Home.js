@@ -4,6 +4,7 @@ import FAQ from "../FAQ";
 import Footer from "../Footer";
 import Gallery from "../Gallery";
 import Header from "../Header";
+import MobileNavBar from "../MobileNavBar";
 import { NavBar } from "../NavBar.js";
 import OurStory from "../OurStory";
 import WhenAndWhere from "../WhenAndWhere";
@@ -31,10 +32,8 @@ function Home() {
 
   return (
     <div className="home-page">
-      <div
-        className="menu-icon-active"
-        onClick={handleClicked}
-      >
+      <div className={menuHidden ? "menu-icon-active" : "menu-icon-black" }  onClick={handleClicked}>
+        <MobileNavBar isHidden={menuHidden}/>
         <i className={menuClicked ? "fa fa-times" : "fas fa-bars"} />
       </div>
       <Header />
