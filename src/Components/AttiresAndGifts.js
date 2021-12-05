@@ -44,8 +44,8 @@ function AttiresAndGifts({ reference }) {
         <h1>Gift Ideas</h1>
         <p>
           With all that we have , we've been truly blessed. Your presence and
-          prayers are all that we request. But if you desire give, nonetheless,
-          a monetary gift is one we request.
+          prayers are all that we request. But if you desire to give,
+          nonetheless, a <i>monetary gift</i> is one we suggest.
         </p>
       </div>
     </div>

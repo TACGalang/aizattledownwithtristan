@@ -48,41 +48,71 @@ function FAQ({ reference }) {
         </p>
         <p>
           We request that only those who are invited to come. Please refer to
-          your invitation for the allotted number of Seat/s, and or please refer
-          to the E-vite sent to you.
+          your invitation for the allotted number of seat/s, and or please refer
+          to the{" "}
+          <a
+            href="https://www.theknot.com/us/aiza-teodoro-and-tristan-galang-jan-2022-7c74913b-ec40-4889-8de0-ea1b353935b0/rsvp"
+            target="_blank"
+          >
+            E-vite sent to you.
+          </a>
         </p>
       </div>
       <div>
         <h1>Meet our bridal entourage</h1>
         <hr />
         <h2>Team Bridesmaids</h2>
-        <div className="entourage-list"> 
-          <Entourage imgSrc={liezel} name="Liezel Bicua" title="Maid of Honor" />
+        <div className="entourage-list">
+          <Entourage
+            imgSrc={liezel}
+            name="Liezel Bicua"
+            title="Maid of Honor"
+          />
         </div>
         <div className="entourage-list">
           <Entourage imgSrc={mumay} name="Priscilla Teodoro" title="Cord" />
           <Entourage imgSrc={darlene} name="Darlene Galang" title="Veil" />
-          <Entourage imgSrc={princess} name="Princess Lobarbio" title="Candle" />
+          <Entourage
+            imgSrc={princess}
+            name="Princess Lobarbio"
+            title="Candle"
+          />
         </div>
         <div className="entourage-list">
-          <Entourage imgSrc={sheng} name="Cyrille Dela Rosa" title="Bridesmaid" />
+          <Entourage
+            imgSrc={sheng}
+            name="Cyrille Dela Rosa"
+            title="Bridesmaid"
+          />
           <Entourage imgSrc={mae} name="Rozen Mae Galang" title="Bridesmaid" />
           <Entourage imgSrc={luz} name="Ma. Luz Lustica" title="Bridesmaid" />
         </div>
         <hr />
         <h2>Team Groomsmen</h2>
-        <div className="entourage-list"> 
+        <div className="entourage-list">
           <Entourage imgSrc={alvin} name="Alvin Aquino" title="Best Man" />
         </div>
         <div className="entourage-list">
           <Entourage imgSrc={bigbog} name="Christian Salazar" title="Cord" />
           <Entourage imgSrc={kim} name="Kim Delos Santos" title="Veil" />
-          <Entourage imgSrc={jay} name="Jay Lumba" title="Candle" />
+          <Entourage imgSrc={jay} name="Jay Anthony Lumba" title="Candle" />
         </div>
         <div className="entourage-list">
-          <Entourage imgSrc={jun} name="Emmanuel Carcosia Jr." title="Groomsmen" />
-          <Entourage imgSrc={jepoy} name="John Paul Dela Rosa" title="Groomsmen" />
-          <Entourage imgSrc={jp} name="John Patrick Navarro" title="Groomsmen" />
+          <Entourage
+            imgSrc={jun}
+            name="Emmanuel Carcosia Jr."
+            title="Groomsmen"
+          />
+          <Entourage
+            imgSrc={jepoy}
+            name="John Paul Dela Rosa"
+            title="Groomsmen"
+          />
+          <Entourage
+            imgSrc={jp}
+            name="John Patrick Navarro"
+            title="Groomsmen"
+          />
         </div>
         <hr />
         <h2>Bearers & Flower Girls</h2>
@@ -92,9 +122,17 @@ function FAQ({ reference }) {
           <Entourage imgSrc={brando} name="Brenard Teodoro" title="Bible" />
         </div>
         <div className="entourage-list">
-          <Entourage imgSrc={yzay} name="Ma. Luisa Teodoro" title="Flower Girls" />
-          <Entourage imgSrc={Kriszia} name="Kriszia Nicodemus" title="Flower Girls" />
-          <Entourage imgSrc={yza} name="Ysabella Roque" title="Flower Girls" />
+          <Entourage
+            imgSrc={yzay}
+            name="Ma. Luisa Teodoro"
+            title="Flower Girl"
+          />
+          <Entourage
+            imgSrc={Kriszia}
+            name="Kriszia Nicodemus"
+            title="Flower Girl"
+          />
+          <Entourage imgSrc={yza} name="Ysabella Roque" title="Flower Girl" />
         </div>
       </div>
     </div>
