@@ -12,40 +12,19 @@ function OurStory({ reference }) {
         </q>
 
         <p>
-          Our story began with a simple <b>swipe right</b>, followed by a thanks
-          and welcome message. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Who would have thought that love will find us in the most unexpected time?
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        Our love story started 2 years ago in a simple swipe left and right. It was way back in 2019 when we both discovered “Facebook Dating”.
+After we matched, we continued to chat to get to know each other at kung bakit kami parehas nasa dating site.
+Until we found out na parehas pala kaming broken because of our past relationships. 
+Eventually, after getting to know, exchanging messages and calls, for the first time nagkita kami sa isang Coffee Shop sa isang Mall sa Malolos. Our first met went well hanggang sa we saw each other a couple more times. Until May 19, 2019, we’re officially in a relationship. We share it with our families and we’re glad they’re happy for us. To be in a new relationship from a long-term relationship is not that easy for us, we both have fears and doubts of heartbreaks. 
+August 2019, We decided to live together as we both have work in Manila, and with the blessings and trust of our families they've allowed us and as to figure out to ourselves if we are compatible and to test the strength of our relationship. 
         </p>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.
+        People say “Love comes at the right time;
+the time you never thought it would have.”.
         </p>
       </div>
     </div>

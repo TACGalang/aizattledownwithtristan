@@ -27,6 +27,9 @@ import img24 from '../Images/img_24.jpg';
 import img25 from '../Images/img_25.jpg';
 import img26 from '../Images/img_26.jpg';
 import img27 from '../Images/img_27.jpg';
+import img28 from '../Images/img_28.jpg';
+import img29 from '../Images/img_29.jpg';
+import img30 from '../Images/img_30.jpg';
 
 export default function Gallery({ reference }) {
 
@@ -62,6 +65,18 @@ export default function Gallery({ reference }) {
         {
             id: 8,
             imgSrc: img8,
+        },
+        {
+            id: 28,
+            imgSrc: img28,
+        },
+        {
+            id: 29,
+            imgSrc: img29,
+        },
+        {
+            id: 30,
+            imgSrc: img30,
         },
         {
             id: 9,
