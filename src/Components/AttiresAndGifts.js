@@ -11,6 +11,14 @@ function AttiresAndGifts({ reference }) {
   return (
     <div className="attires and gifts" id="attires-and-gift" ref={reference}>
       <div className="attires-container">
+        <h1>Gift Ideas</h1>
+        <p>
+          With all that we have , we've been truly blessed. Your presence and
+          prayers are all that we request. But if you desire to give,
+          nonetheless, a <i>monetary gift</i> is one we suggest.
+        </p>
+      </div>
+      <div className="attires-container">
         <h1>Gentleman’s Attire</h1>
         <h3>- Dress pants with coat or button down shirt</h3>
         <ul className="gentlemans-list">
@@ -39,14 +47,6 @@ function AttiresAndGifts({ reference }) {
             <img src={ladies3} />
           </li>
         </ul>
-      </div>
-      <div className="attires-container">
-        <h1>Gift Ideas</h1>
-        <p>
-          With all that we have , we've been truly blessed. Your presence and
-          prayers are all that we request. But if you desire to give,
-          nonetheless, a <i>monetary gift</i> is one we suggest.
-        </p>
       </div>
     </div>
   );

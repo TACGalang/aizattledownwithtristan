@@ -73,6 +73,11 @@
     margin-bottom: 0;
   }
 
+  .faq.container h2 {
+    margin-top: 10vh;
+    font-size: 35px;
+  }
+
   .faq.container p {
     font-size: 15px;
     line-height: 25px;
