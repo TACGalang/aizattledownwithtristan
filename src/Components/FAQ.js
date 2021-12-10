@@ -60,7 +60,6 @@ function FAQ({ reference }) {
       </div>
       <div>
         <h1>Meet our bridal entourage</h1>
-        <hr />
         <h2>Team Bridesmaids</h2>
         <div className="entourage-list">
           <Entourage
