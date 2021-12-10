@@ -38,6 +38,7 @@
   border-radius: 10px;
   height: 100%;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .nav-links-active {
@@ -52,6 +53,7 @@
   font-size: 1.2rem;
   background-color: white;
   color: var(--tail-blue-color);
+  cursor: pointer;
 }
 
 .nav-links:hover {
@@ -85,7 +87,7 @@
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 50px;
+    top: 80px;
     opacity: 1;
     transition: all 0.5s ease;
   }

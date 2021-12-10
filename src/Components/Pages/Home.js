@@ -21,8 +21,6 @@ function Home() {
   const FAQRef = useRef();
   const footerRef = useRef();
 
-  const navHeaders = [ ourStoryRef, whenAndWhereRef, attiresAndGiftRef, FAQRef ];
-
   const changeMenuIconVisibility = () => {
     if (window.scrollY >= 100) {
       setMenuHidden(false);
@@ -40,18 +38,21 @@ function Home() {
 
   return (
     <div className="home-page">
-      <div className={menuHidden ? "menu-icon-active" : "menu-icon-black" }  onClick={handleClicked}>
-        <MobileNavBar isHidden={menuHidden}/>
+      <div
+        className={menuHidden ? "menu-icon-active" : "menu-icon-black"}
+        onClick={handleClicked}
+      >
+        <MobileNavBar isHidden={menuHidden} />
         <i className={menuClicked ? "fa fa-times" : "fas fa-bars"} />
       </div>
       <Header />
-      <NavBar isNavBarActive={menuClicked} callHandleClick={handleClicked} navHeaders={navHeaders}/>
-      <OurStory reference={ourStoryRef}/>
-      <Gallery/>
-      <WhenAndWhere reference={whenAndWhereRef}/>
-      <AttiresAndGifts reference={attiresAndGiftRef}/>
-      <FAQ reference={FAQRef}/>
-      <Footer reference={footerRef}/>
+      <NavBar isNavBarActive={menuClicked} callHandleClick={handleClicked} />
+      <OurStory reference={ourStoryRef} />
+      <Gallery />
+      <WhenAndWhere reference={whenAndWhereRef} />
+      <AttiresAndGifts reference={attiresAndGiftRef} />
+      <FAQ reference={FAQRef} />
+      <Footer reference={footerRef} />
     </div>
   );
 }
