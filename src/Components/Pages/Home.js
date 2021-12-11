@@ -3,7 +3,6 @@ import AttiresAndGifts from "../AttiresAndGifts";
 import Entourage from "../Entourage";
 import FAQ from "../FAQ";
 import Footer from "../Footer";
-import Gallery from "../Gallery";
 import Header from "../Header";
 import MobileNavBar from "../MobileNavBar";
 import { NavBar } from "../NavBar.js";
