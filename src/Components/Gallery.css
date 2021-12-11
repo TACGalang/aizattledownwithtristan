@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--tail-blue-color);
+  width: 100%;
 }
 
 .gallery {

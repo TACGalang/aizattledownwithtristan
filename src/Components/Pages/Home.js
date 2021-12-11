@@ -48,7 +48,6 @@ function Home() {
       <Header />
       <NavBar isNavBarActive={menuClicked} callHandleClick={handleClicked} />
       <OurStory reference={ourStoryRef} />
-      <Gallery />
       <WhenAndWhere reference={whenAndWhereRef} />
       <AttiresAndGifts reference={attiresAndGiftRef} />
       <FAQ reference={FAQRef} />

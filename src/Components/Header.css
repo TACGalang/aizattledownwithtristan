@@ -27,4 +27,8 @@
   .header-backgrounds {
     margin-top: 0;
   }
+
+  .header-container {
+    height: 100vh;
+  }
 }

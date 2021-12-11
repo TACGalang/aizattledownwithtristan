@@ -1,12 +1,17 @@
 .our-story {
-  background-image: linear-gradient(black, #005964);
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   color: white;
 }
 
-.our-story div {
+.our-story-container-bg {
+  background-image: linear-gradient(black, #005964);
+  width: 100%;
+}
+
+.our-story-container {
   margin-top: 10vh;
   width: 70vw;
   text-align: center;
@@ -43,8 +48,14 @@
   font-weight: bold;
 }
 
+.our-story a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 960px) {
-  .our-story div {
+  .our-story-container {
     width: 90vw;
     margin-top: 0;
   }
