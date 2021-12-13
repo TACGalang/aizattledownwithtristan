@@ -12,38 +12,39 @@ function OurStory({ reference }) {
 
           <p>
             Our love story started 2 years ago in a simple <b>swipe right</b>.
-            It was way back in 2019 when we both discovered “Facebook Dating”
-            app. That time alam namin sa isa't isa na we use that app, just to
-            have fun, to make friends, but katulad nga ng ilang real love story,
-            that dating app became our bridge to our <b>love story</b>. After we
-            matched, we continued to chat to get to know each other at kung
-            bakit kami parehas nasa dating app, until we found out na parehas
-            pala kaming heart broken because of our past relationships.
-            Eventually, after exchanging messages and calls, for the first time
-            nagkita kami sa Coffee shop sa isang Mall sa Malolos. Our first met
-            went well hanggang sa we saw each other a couple more times.
+            It was way back in 2019 when we both discovered the “Facebook
+            Dating” app. That time alam namin sa isa't isa na we use that app,
+            just to have fun, to make friends, but katulad nga ng ilang real
+            love story, that dating app became our bridge to our{" "}
+            <b>love story</b>. After we matched, we continued to chat to get to
+            know each other at kung bakit kami parehas nasa dating app, until we
+            found out na parehas pala kaming heartbroken because of our past
+            relationships. Eventually, after exchanging messages and calls, for
+            the first time nagkita kami sa Coffee shop sa isang Mall sa Malolos.
+            Our first met went well hanggang sa we saw each other a couple more
+            times.
           </p>
 
           <p>
             <b>May 19, 2019. We`re officially in a relationship</b>. We share it
-            with our families and we`re glad they happy for us. Kaming dalawa ay
-            nanggaling sa isang long-term relationship even though, mayroon pa
-            din ups and downs and syempre hindi maiiwasan na sa una, we both
-            have fears and doubts sa heartbreaks.
+            with our families and we`re glad they are happy for us. Kaming
+            dalawa ay nanggaling sa isang long-term relationship even though,
+            mayroon pa din ups and downs and syempre hindi maiiwasan na sa una,
+            we both have fears and doubts sa heartbreaks.
           </p>
 
           <p>
-            <b>August 2019. Moving together</b>, We decided to live in together
-            as we both have work in Manila, syempre with the blessings and trust
-            of our families. Pero bakit nga ba namin pinili ang live in
-            relationship? We both know others may not agree specially sa culture
-            that we had as Filipinos, but since Tristan and I are not getting
-            any younger, we wanted to know more each other in a short period of
-            time. Madami kaming natutunan sa pagsasama namin sa Manila, like
-            natuto si Tristan sa household chores <i>(haha kidding aside)</i>,
-            we learn how to be patient, understanding, respect and more
-            importantly trust each other, as a matter of fact kasal na lang
-            talaga ang kulang.
+            <b>August 2019. Moving together</b>, We decided to live together as
+            we both have work in Manila, syempre with the blessings and trust of
+            our families. Pero bakit nga ba namin pinili ang live in
+            relationship? We both know others may not agree especially sa
+            culture that we had as Filipinos, but since Tristan and I are not
+            getting any younger, we wanted to know more about each other in a
+            short period of time. Madami kaming natutunan sa pagsasama namin sa
+            Manila, like natuto si Tristan sa household chores{" "}
+            <i>(haha kidding aside)</i>, we learn how to be patient,
+            understanding, respect and more importantly trust each other, as a
+            matter of fact, kasal na lang talaga ang kulang.
           </p>
 
           <p>
@@ -91,7 +92,7 @@ function OurStory({ reference }) {
 
           <p>
             <b>
-              This upcomming January 22, 2022, we invite you to be a part of our
+              This upcoming January 22, 2022, we invite you to be a part of our
               special day as Tristan and I begin our new life together.
             </b>
           </p>
