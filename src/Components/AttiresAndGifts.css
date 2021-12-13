@@ -23,7 +23,12 @@
   font-size: 70px;
   font-weight: bold;
   text-shadow: 3px 3px 4px #00000027;
-  margin-bottom: 3vh;
+}
+
+.attires.and.gifts h2 {
+  font-family: "PT Serif", serif;
+  font-size: 40px;
+  font-weight: normal;
 }
 
 .attires.and.gifts h3 {
@@ -72,6 +77,12 @@
   .attires.and.gifts h1 {
     font-size: 45px;
     text-shadow: 2px 2px 2px #00000027;
+  }
+
+  .attires.and.gifts h2 {
+    font-family: "PT Serif", serif;
+    font-size: 30px;
+    font-weight: normal;
   }
 
   .attires.and.gifts h3 {

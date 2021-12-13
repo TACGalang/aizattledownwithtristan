@@ -19,7 +19,8 @@ function AttiresAndGifts({ reference }) {
         </p>
       </div>
       <div className="attires-container">
-        <h1>Gentleman’s Attire</h1>
+        <h1>Guest's Attire</h1>
+        <h2>Gentleman</h2>
         <h3>- Dress pants with coat or button down shirt</h3>
         <ul className="gentlemans-list">
           <li>
@@ -34,7 +35,7 @@ function AttiresAndGifts({ reference }) {
         </ul>
       </div>
       <div className="attires-container">
-        <h1>Ladies Attire</h1>
+        <h2>Ladies</h2>
         <h3>- Long or Cocktail Dress</h3>
         <ul className="gentlemans-list">
           <li>

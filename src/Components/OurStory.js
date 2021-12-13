@@ -56,10 +56,10 @@ function OurStory({ reference }) {
 
           <p>
             <b>February 2021. The engagement</b>, Aiza and I decided to pursue
-            our wedding this 2021 without her knowing that I already prepare the
-            plan to propose to her. The d-day comes February 14th valentines
-            day, it was a mixed plan and miracle for us. But all I can say it
-            was a lovely evening. Here is the{" "}
+            our wedding this 2021 without her knowing that I had already
+            prepared the plan to propose to her. The d-day comes February 14th
+            valentines day, it was a mixed plan and miracle for us. But all I
+            can say it was a lovely evening. Here is the{" "}
             <a
               href="https://www.facebook.com/swiftySane/videos/4536439713039699"
               target="_blank"
