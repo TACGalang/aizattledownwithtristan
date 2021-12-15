@@ -21,7 +21,7 @@ function AttiresAndGifts({ reference }) {
       <div className="attires-container">
         <h1>Guest's Attire</h1>
         <h2>Gentleman</h2>
-        <h3>- Dress pants with coat or button down shirt</h3>
+        <h3>- Semi formal pants with coat or button down shirt</h3>
         <ul className="gentlemans-list">
           <li>
             <img src={gentle1} />
@@ -36,7 +36,7 @@ function AttiresAndGifts({ reference }) {
       </div>
       <div className="attires-container">
         <h2>Ladies</h2>
-        <h3>- Long or Cocktail Dress</h3>
+        <h3>- Semi formal long or below the knee dress</h3>
         <ul className="gentlemans-list">
           <li>
             <img src={ladies1} />
