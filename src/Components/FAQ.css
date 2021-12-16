@@ -1,0 +1,102 @@
+.faq.container {
+  background-color: white;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  color: var(--tail-blue-color);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.faq.container div {
+  width: 70vw;
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-bottom: 5vh;
+}
+
+.faq.container h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px #00000027;
+  margin-bottom: 8vh;
+}
+
+.faq.container h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px #00000027;
+  margin-bottom: 8vh;
+}
+
+.faq.container p {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 2vh;
+  line-height: 40px;
+}
+
+.timeline {
+  width: 70%;
+  margin-top: 10vh;
+}
+
+.faq.container div.entourage-list {
+  width: 50vw;
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.faq.container a {
+  font-family: "PT Serif", serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 2vh;
+  line-height: 40px;
+  color: var(--tail-blue-color);
+}
+
+@media screen and (max-width: 960px) {
+  .faq.container h1 {
+    font-size: 45px;
+    text-shadow: 2px 2px 2px #00000027;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .faq.container h2 {
+    margin-top: 10vh;
+    font-size: 35px;
+  }
+
+  .faq.container p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .faq.container div {
+    width: 90vw;
+  }
+
+  .timeline {
+    width: 100%;
+  }
+
+  .faq.container div.entourage-list {
+    width: 90vw;
+    text-align: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+}

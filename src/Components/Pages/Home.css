@@ -1,0 +1,51 @@
+.home-page {
+  background-color: white;
+}
+
+.menu-icon-active {
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  transition: opacity 10s ease-out;
+  -webkit-transition: opacity 2s ease-out;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon-black {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  transition: opacity 10s ease-out;
+  -webkit-transition: opacity 2s ease-out;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Menu Icon Styles */
+.fa.fa-times {
+  color: white;
+}
+
+.fas.fa-bars {
+  color: white;
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (min-width: 961px) {
+  .menu-icon-active,
+  .menu-icon-inactive,
+  .menu-icon-black {
+    display: none;
+  }
+}

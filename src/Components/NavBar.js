@@ -1,34 +1,88 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./NarBar.css";
+import { Link as LinkS } from "react-scroll";
 
-function NavBar() {
+export const NavBar = ({ isNavBarActive, callHandleClick }) => {
   return (
     <>
-      <nav className="navbar">
+      <nav className={isNavBarActive ? "navbar-active" : "navbar"}>
         <ul className="nav-menu-list">
-          <li className="nav-menu-item">
-            <Link to="/" className="nav-links">
+          <li
+            className="nav-menu-item"
+            onClick={isNavBarActive ? callHandleClick : null}
+          >
+            <LinkS
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-60}
+              to="our-story"
+              activeClass="nav-links-active"
+              className="nav-links"
+              onClick={isNavBarActive ? callHandleClick : null}
+            >
               Our Story
-            </Link>
+            </LinkS>
           </li>
-          <li className="nav-menu-item">
-            <Link to="/" className="nav-links">
+          <li
+            className="nav-menu-item"
+            onClick={isNavBarActive ? callHandleClick : null}
+          >
+            <LinkS
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-60}
+              to="when-and-where"
+              activeClass="nav-links-active"
+              className="nav-links"
+              onClick={isNavBarActive ? callHandleClick : null}
+            >
               When & Where
-            </Link>
+            </LinkS>
           </li>
-          <li className="nav-menu-item">
-            <Link to="/" className="nav-links">
+          <li
+            className="nav-menu-item"
+            onClick={isNavBarActive ? callHandleClick : null}
+          >
+            <LinkS
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-60}
+              to="attires-and-gift"
+              activeClass="nav-links-active"
+              className="nav-links"
+              onClick={isNavBarActive ? callHandleClick : null}
+            >
               Attires & Gift
-            </Link>
+            </LinkS>
           </li>
-          <li className="nav-menu-item">
-            <Link to="/" className="nav-links">
+          <li
+            smooth
+            className="nav-menu-item"
+            onClick={isNavBarActive ? callHandleClick : null}
+          >
+            <LinkS
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-60}
+              to="faq"
+              activeClass="nav-links-active"
+              className="nav-links"
+              onClick={isNavBarActive ? callHandleClick : null}
+            >
               FAQ
-            </Link>
+            </LinkS>
           </li>
           <li className="nav-menu-item">
-            <Link to="/" className="nav-links">
+            <Link to="/rsvp" className="nav-links">
               RSVP
             </Link>
           </li>
@@ -36,6 +90,4 @@ function NavBar() {
       </nav>
     </>
   );
-}
-
-export default NavBar;
+};

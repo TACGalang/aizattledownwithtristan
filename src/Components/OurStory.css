@@ -1,0 +1,79 @@
+.our-story {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.our-story-container-bg {
+  background-image: linear-gradient(black, #005964);
+  width: 100%;
+}
+
+.our-story-container {
+  margin-top: 10vh;
+  width: 70vw;
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10vh;
+}
+
+.our-story h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.our-story q {
+  font-family: "Bad Script", cursive;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.our-story p {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 50px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.our-story b {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.our-story a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+  .our-story-container {
+    width: 90vw;
+    margin-top: 0;
+  }
+
+  .our-story h1 {
+    font-size: 35px;
+  }
+
+  .our-story q {
+    font-size: 20px;
+  }
+
+  .our-story p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .our-story b {
+    font-size: 25px;
+  }
+}
