@@ -9,14 +9,14 @@ function Footer({ reference }) {
       <div>
         <img src={weddingLogo} />
         <h1>We can't wait to see you!</h1>
-        <p>Please let us know if you'll be able to make it.</p>
-        <Button
+        {/* <p>Please let us know if you'll be able to make it.</p> */}
+        {/* <Button
           buttonSize="btn--large"
           buttonStyle="btn--outline"
           onClick="/rsvp"
         >
           RSVP
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

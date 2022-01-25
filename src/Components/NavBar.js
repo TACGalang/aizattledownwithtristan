@@ -81,11 +81,6 @@ export const NavBar = ({ isNavBarActive, callHandleClick }) => {
               FAQ
             </LinkS>
           </li>
-          <li className="nav-menu-item">
-            <Link to="/rsvp" className="nav-links">
-              RSVP
-            </Link>
-          </li>
         </ul>
       </nav>
     </>
