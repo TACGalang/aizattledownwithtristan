@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   color: white;
-  padding-top: 5vh;
+  padding-top: 20vh;
   padding-bottom: 10vh;
 }
 
@@ -24,7 +24,7 @@
   font-weight: bold;
   text-shadow: 3px 3px 4px #00000027;
   margin-bottom: 5vh;
-  margin-top: 0;
+  margin-top: 15vh;
 }
 
 .footer-container p {
@@ -35,14 +35,14 @@
 }
 
 .footer-container img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: contain;
 }
 
 @media screen and (max-width: 960px) {
   .footer-container h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .footer-container p {
@@ -55,8 +55,8 @@
   }
 
   .footer-container img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: contain;
   }
 }

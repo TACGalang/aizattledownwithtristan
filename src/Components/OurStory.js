@@ -92,7 +92,7 @@ function OurStory({ reference }) {
 
           <p>
             <b>
-              This upcoming January 22, 2022, we invite you to be a part of our
+              This upcoming February 25, 2022, we invite you to be a part of our
               special day as Tristan and I begin our new life together.
             </b>
           </p>
