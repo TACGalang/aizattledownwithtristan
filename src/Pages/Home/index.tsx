@@ -1,16 +1,15 @@
-import React, { useState, useEffect, useRef } from "react";
-import AttiresAndGifts from "../Components/AttiresAndGifts";
-import Entourage from "../Components/Entourage";
-import FAQ from "../Components/FAQ";
-import Footer from "../Components/Footer";
-import Header from "../Components/Header";
-import MobileNavBar from "../Components/MobileNavBar";
-import { NavBar } from "../Components/NavBar.js";
-import OurStory from "../Components/OurStory";
-import WhenAndWhere from "../Components/WhenAndWhere";
-import "./Home.css";
+import { useState, useEffect, useRef } from "react";
+import AttiresAndGifts from "../../Components/AttiresAndGifts";
+import FAQ from "../../Components/FAQ";
+import Footer from "../../Components/Footer";
+import Header from "../../Components/Header";
+import MobileNavBar from "../../Components/MobileNavBar";
+import { NavBar } from "../../Components/NavBar.js";
+import OurStory from "../../Components/OurStory";
+import WhenAndWhere from "../../Components/WhenAndWhere";
+import "./style.css";
 
-function Home() {
+const Home = () => {
   const [menuClicked, setMenuClicked] = useState(false);
   const [menuHidden, setMenuHidden] = useState(false);
   const handleClicked = () => setMenuClicked(!menuClicked);
@@ -53,6 +52,6 @@ function Home() {
       <Footer reference={footerRef} />
     </div>
   );
-}
+};
 
 export default Home;
