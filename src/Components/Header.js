@@ -2,7 +2,6 @@ import React from "react";
 import headerBG from "../Images/hero-image.jpg";
 import headerTitle from "../Icons/hero-logo.svg";
 import "./Header.css";
-import "../App.css";
 
 function Header() {
   return (

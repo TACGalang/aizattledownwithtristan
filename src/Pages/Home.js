@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
-import AttiresAndGifts from "../AttiresAndGifts";
-import Entourage from "../Entourage";
-import FAQ from "../FAQ";
-import Footer from "../Footer";
-import Header from "../Header";
-import MobileNavBar from "../MobileNavBar";
-import { NavBar } from "../NavBar.js";
-import OurStory from "../OurStory";
-import WhenAndWhere from "../WhenAndWhere";
+import AttiresAndGifts from "../Components/AttiresAndGifts";
+import Entourage from "../Components/Entourage";
+import FAQ from "../Components/FAQ";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
+import MobileNavBar from "../Components/MobileNavBar";
+import { NavBar } from "../Components/NavBar.js";
+import OurStory from "../Components/OurStory";
+import WhenAndWhere from "../Components/WhenAndWhere";
 import "./Home.css";
 
 function Home() {

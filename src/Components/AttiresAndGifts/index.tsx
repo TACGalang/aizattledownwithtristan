@@ -1,13 +1,16 @@
-import React from "react";
-import "./AttiresAndGifts.css";
-import gentle1 from "../Images/gentleman_1.jpeg";
-import gentle2 from "../Images/gentleman_2.jpeg";
-import gentle3 from "../Images/gentleman_3.jpeg";
-import ladies1 from "../Images/ladies_1.jpeg";
-import ladies2 from "../Images/ladies_2.jpeg";
-import ladies3 from "../Images/ladies_3.jpeg";
+import "./style.css";
+import gentle1 from "../../Images/gentleman_1.jpeg";
+import gentle2 from "../../Images/gentleman_2.jpeg";
+import gentle3 from "../../Images/gentleman_3.jpeg";
+import ladies1 from "../../Images/ladies_1.jpeg";
+import ladies2 from "../../Images/ladies_2.jpeg";
+import ladies3 from "../../Images/ladies_3.jpeg";
 
-function AttiresAndGifts({ reference }) {
+interface AttiresAndGiftProp {
+  reference: any;
+}
+
+const AttiresAndGifts = ({ reference }: AttiresAndGiftProp) => {
   return (
     <div className="attires and gifts" id="attires-and-gift" ref={reference}>
       <div className="attires-container">
@@ -24,13 +27,13 @@ function AttiresAndGifts({ reference }) {
         <h3>- Semi formal pants with coat or button down shirt</h3>
         <ul className="gentlemans-list">
           <li>
-            <img src={gentle1} />
+            <img src={gentle1} alt="" />
           </li>
           <li>
-            <img src={gentle2} />
+            <img src={gentle2} alt="" />
           </li>
           <li>
-            <img src={gentle3} />
+            <img src={gentle3} alt="" />
           </li>
         </ul>
       </div>
@@ -39,18 +42,18 @@ function AttiresAndGifts({ reference }) {
         <h3>- Semi formal long or below the knee dress</h3>
         <ul className="gentlemans-list">
           <li>
-            <img src={ladies1} />
+            <img src={ladies1} alt="" />
           </li>
           <li>
-            <img src={ladies2} />
+            <img src={ladies2} alt="" />
           </li>
           <li>
-            <img src={ladies3} />
+            <img src={ladies3} alt="" />
           </li>
         </ul>
       </div>
     </div>
   );
-}
+};
 
 export default AttiresAndGifts;
