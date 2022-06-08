@@ -1,9 +1,8 @@
-import React from "react";
-import headerBG from "../Images/hero-image.jpg";
-import headerTitle from "../Icons/hero-logo.svg";
-import "./Header.css";
+import "./style.css";
+import headerBG from "../../Images/hero-image.jpg";
+import headerTitle from "../../Icons/hero-logo.svg";
 
-function Header() {
+const Header = () => {
   return (
     <div className="header-container" id="home">
       <img src={headerTitle} alt="Header Title" className="header-title" />
@@ -14,6 +13,6 @@ function Header() {
       />
     </div>
   );
-}
+};
 
 export default Header;
