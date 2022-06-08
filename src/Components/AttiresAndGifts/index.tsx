@@ -1,4 +1,6 @@
 import "./style.css";
+import ReferenceBase from "src/Module/ReferenceInterface";
+
 import gentle1 from "../../Images/gentleman_1.jpeg";
 import gentle2 from "../../Images/gentleman_2.jpeg";
 import gentle3 from "../../Images/gentleman_3.jpeg";
@@ -6,11 +8,7 @@ import ladies1 from "../../Images/ladies_1.jpeg";
 import ladies2 from "../../Images/ladies_2.jpeg";
 import ladies3 from "../../Images/ladies_3.jpeg";
 
-interface AttiresAndGiftProp {
-  reference: any;
-}
-
-const AttiresAndGifts = ({ reference }: AttiresAndGiftProp) => {
+const AttiresAndGifts: React.FC<ReferenceBase> = ({ reference }) => {
   return (
     <div className="attires and gifts" id="attires-and-gift" ref={reference}>
       <div className="attires-container">

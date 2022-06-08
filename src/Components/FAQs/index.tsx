@@ -1,4 +1,5 @@
 import "./style.css";
+import ReferenceBase from "src/Module/ReferenceInterface";
 import weddingTimeline from "../../Images/wedding_timeline.svg";
 
 /* Bridesmaid */
@@ -27,13 +28,8 @@ import yzay from "../../Images/ysay.jpg";
 import mac from "../../Images/mac.jpg";
 import brando from "../../Images/brando.jpg";
 import omba from "../../Images/omba.jpg";
-import { MutableRefObject } from "react";
 
-interface FAQProps {
-  reference?: MutableRefObject<any>;
-}
-
-const FAQ: React.FC<FAQProps> = ({ reference }) => {
+const FAQ: React.FC<ReferenceBase> = ({ reference }) => {
   return (
     <div className="faq container" id="faq" ref={reference}>
       <div>

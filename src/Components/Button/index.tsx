@@ -45,3 +45,4 @@ const Button = ({
 };
 
 export default Button;
+export { ButtonSizes, ButtonStyles };
