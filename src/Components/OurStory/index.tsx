@@ -1,8 +1,8 @@
-import React from "react";
-import "./OurStory.css";
-import Gallery from "./Gallery";
+import "./style.css";
+import Gallery from "../Gallery";
+import ReferenceBase from "src/Module/ReferenceInterface";
 
-function OurStory({ reference }) {
+const OurStory: React.FC<ReferenceBase> = ({ reference }) => {
   return (
     <div className="our-story" id="our-story" ref={reference}>
       <div className="our-story-container-bg">
@@ -101,6 +101,6 @@ function OurStory({ reference }) {
       <Gallery />
     </div>
   );
-}
+};
 
 export default OurStory;
