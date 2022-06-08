@@ -4,7 +4,7 @@ import FAQ from "../../Components/FAQs";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import MobileNavBar from "../../Components/MobileNavBar";
-import { NavBar } from "../../Components/NavBar.js";
+import NavBar from "../../Components/NavBar";
 import OurStory from "../../Components/OurStory";
 import WhenAndWhere from "../../Components/WhenAndWhere";
 import "./style.css";
