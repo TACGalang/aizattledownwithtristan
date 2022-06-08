@@ -1,10 +1,10 @@
-import React from "react";
-import "./WhenAndWhere.css";
-import cathedralImg from "../Images/cathedral.png";
-import oneGrandImg from "../Images/one_grand.jpeg";
-import agathaImg from "../Images/agatha.jpeg";
+import "./style.css";
+import ReferenceBase from "src/Module/ReferenceInterface";
+import cathedralImg from "../../Images/cathedral.png";
+import oneGrandImg from "../../Images/one_grand.jpeg";
+import agathaImg from "../../Images/agatha.jpeg";
 
-function WhenAndWhere({ reference }) {
+const WhenAndWhere: React.FC<ReferenceBase> = ({ reference }) => {
   return (
     <div className="when and where" id="when-and-where" ref={reference}>
       <div>
@@ -93,6 +93,6 @@ function WhenAndWhere({ reference }) {
       </div>
     </div>
   );
-}
+};
 
 export default WhenAndWhere;
