@@ -1,4 +1,8 @@
-.coming.soon {
+:root {
+  --tail-blue-color: #005964;
+}
+
+.comingsoon {
   background-color: var(--tail-blue-color);
   display: flex;
   justify-content: center;
@@ -8,7 +12,7 @@
   height: 100vh;
 }
 
-.coming.soon h1 {
+.comingsoon h1 {
   text-align: center;
   font-family: "Dancing Script", cursive;
   font-size: 70px;
@@ -17,7 +21,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .coming.soon h1 {
+  .comingsoon h1 {
     font-size: 35px;
     text-shadow: 2px 2px 2px #00000027;
     margin-top: 5vh;

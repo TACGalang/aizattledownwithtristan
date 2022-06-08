@@ -1,40 +1,44 @@
-import React from "react";
-import "./FAQ.css";
-import weddingTimeline from "../Images/wedding_timeline.svg";
+import "./style.css";
+import weddingTimeline from "../../Images/wedding_timeline.svg";
 
 /* Bridesmaid */
-import Entourage from "./Entourage";
-import liezel from "../Images/liezel.jpg";
-import mumay from "../Images/mumay.jpg";
-import sheng from "../Images/sheng.jpg";
-import darlene from "../Images/darlene.jpg";
-import mae from "../Images/mae.jpg";
-import princess from "../Images/princess.jpg";
-import luz from "../Images/luz.jpg";
+import Entourage from "../Entourage";
+import liezel from "../../Images/liezel.jpg";
+import mumay from "../../Images/mumay.jpg";
+import sheng from "../../Images/sheng.jpg";
+import darlene from "../../Images/darlene.jpg";
+import mae from "../../Images/mae.jpg";
+import princess from "../../Images/princess.jpg";
+import luz from "../../Images/luz.jpg";
 
 /* Groomsmen */
-import alvin from "../Images/alvin.jpg";
-import bigbog from "../Images/bigbog.jpg";
-import kim from "../Images/kim.jpg";
-import jay from "../Images/jay.jpg";
-import jun from "../Images/jun.jpg";
-import jepoy from "../Images/jepoy.jpg";
-import jp from "../Images/jp.jpg";
+import alvin from "../../Images/alvin.jpg";
+import bigbog from "../../Images/bigbog.jpg";
+import kim from "../../Images/kim.jpg";
+import jay from "../../Images/jay.jpg";
+import jun from "../../Images/jun.jpg";
+import jepoy from "../../Images/jepoy.jpg";
+import jp from "../../Images/jp.jpg";
 
 /*Bearers & Flower Girls */
-import yza from "../Images/yzabella.jpg";
-import Kriszia from "../Images/kriszia.jpg";
-import yzay from "../Images/ysay.jpg";
-import mac from "../Images/mac.jpg";
-import brando from "../Images/brando.jpg";
-import omba from "../Images/omba.jpg";
+import yza from "../../Images/yzabella.jpg";
+import Kriszia from "../../Images/kriszia.jpg";
+import yzay from "../../Images/ysay.jpg";
+import mac from "../../Images/mac.jpg";
+import brando from "../../Images/brando.jpg";
+import omba from "../../Images/omba.jpg";
+import { MutableRefObject } from "react";
 
-function FAQ({ reference }) {
+interface FAQProps {
+  reference?: MutableRefObject<any>;
+}
+
+const FAQ: React.FC<FAQProps> = ({ reference }) => {
   return (
     <div className="faq container" id="faq" ref={reference}>
       <div>
         <h1>What is the wedding timeline?</h1>
-        <img src={weddingTimeline} className="timeline" />
+        <img src={weddingTimeline} className="timeline" alt="" />
       </div>
       <div>
         <h1>Can I bring a date or plus one?</h1>
@@ -136,6 +140,6 @@ function FAQ({ reference }) {
       </div>
     </div>
   );
-}
+};
 
 export default FAQ;

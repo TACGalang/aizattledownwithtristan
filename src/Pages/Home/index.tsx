@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import AttiresAndGifts from "../../Components/AttiresAndGifts";
-import FAQ from "../../Components/FAQ";
+import FAQ from "../../Components/FAQs";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import MobileNavBar from "../../Components/MobileNavBar";

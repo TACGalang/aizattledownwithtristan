@@ -1,0 +1,51 @@
+.entourage {
+  display: flexbox;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+}
+
+.img_thumbnail {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 75px;
+}
+
+.name {
+  font-family: "PT Serif", serif;
+  font-size: 25px;
+  font-weight: normal;
+  width: 100%;
+}
+
+.title {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 960px) {
+  .img_thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 75px;
+  }
+
+  .name {
+    font-family: "PT Serif", serif;
+    font-size: 20px;
+    font-weight: normal;
+    width: 100%;
+  }
+
+  .title {
+    font-family: "PT Serif", serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: -10px;
+  }
+}
